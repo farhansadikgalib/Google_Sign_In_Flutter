@@ -1,6 +1,9 @@
 import 'package:first_firebase/widget/google_signup_button_widget.dart';
 import 'package:flutter/material.dart';
 class SignUpWidget extends StatelessWidget {
+
+
+
   @override
   Widget build(BuildContext context) => Stack(
         fit: StackFit.expand,
@@ -21,7 +24,7 @@ class SignUpWidget extends StatelessWidget {
               child: Text(
                 'Welcome Back To MyApp',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black54,
                   fontSize: 30,
                   fontWeight: FontWeight.bold,
                 ),
